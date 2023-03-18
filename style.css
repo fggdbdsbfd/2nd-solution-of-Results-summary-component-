@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    font-family:  'Hanken Grotesk', sans-serif;
+}
+
+.back{
+    height: 100vh;
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+
+
+ .main{
+    display: flex;
+    height: 10rem;
+    flex-direction: row;
+    align-items: center;
+    background-color: White  hsl(0, 0%, 100%);
+  
+ 
+ }
+
+
+
+ .frist{
+    background: linear-gradient(356deg, rgba(128,64,246,0.5830707282913166) 0%, rgba(143,57,255,1) 10%, rgba(108,58,207,1) 100%);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 23rem;
+    width: 15rem;
+    justify-items: center;
+    color: white;
+    text-align: center;
+    font-family:  'Hanken Grotesk', sans-serif;
+    justify-content: center;
+    border-radius: 10%;
+ }
+
+
+ .frist  .P1 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    font-weight: bold;
+ }
+
+
+ .frist .p2 {
+    font-size: small;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+ }
+ 
+
+.shape{
+    background: radial-gradient(circle, rgba(55,0,157,0.5830707282913166) 0%, rgba(62,25,110,1) 21%, rgba(108,58,207,1) 100%);
+   display: flex;
+    text-align: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+     
+    padding: 2rem;
+    font-family:  'Hanken Grotesk', sans-serif;
+    border-radius: 5rem;
+    flex-direction: column;
+    
+}
+
+.shape h3 {
+    font-size: 4rem;
+}
+
+
+
+.second{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-right: 1.5rem;
+    padding: 1rem;
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    padding-bottom: 1.5rem;
+    font-family:  'Hanken Grotesk', sans-serif;
+    box-shadow: 10px 10px 10px rgba(32, 35, 37, 0.233) ;
+}
+
+.react  {
+    background-color: hsla(0, 100%, 67%, 0.144);
+    list-style: none;
+    display: flex;
+    margin-top: .5rem;
+     
+    flex-direction: row;
+    padding: .8rem;
+    
+}
+
+.memory  {
+    background-color: hsla(39, 100%, 56%, 0.178) ;
+    list-style: none;
+    display: flex;
+    margin-top: .5rem;
+     
+    flex-direction: row;
+    padding: .8rem;
+    
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.123) ;
+    list-style: none;
+    display: flex;
+    margin-top: .5rem;
+     
+    flex-direction: row;
+    padding: .8rem;
+}
+
+.visual{
+    background-color:hsla(234, 85%, 45%, 0.123) ;
+    list-style: none;
+    display: flex;
+    margin-top: .5rem;
+     
+    flex-direction: row;
+    padding: .8rem;
+}
+
+li p {
+    font-size: .9rem;
+
+}
+
+li p span {
+    color: rgba(46, 4, 4, 0.418);
+}
+
+
+.visual h5 {
+    color:  hsl(234, 85%, 45%) ;
+    font-size: .9rem;
+}
+
+.verbal h5  {
+    font-size: .9rem;
+
+color: hsl(166, 100%, 37%);
+}
+.memory h5 {
+    color: hsl(39, 100%, 56%);
+    font-size: .9rem;
+}
+
+.react h5 {
+    font-size: .9rem;
+    color: hsl(0, 100%, 67%);
+}
+
+li img {
+    padding-right: .5rem;
+}
+
+li p {
+    margin-left: 2.5rem;
+}
+ 
+
+ul li {
+    
+   border-radius: 15px;
+    
+
+}
+
+/* continue button style strat here  */
+
+
+.cont {
+
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(356deg, rgba(128,64,246,0.5830707282913166) 0%, rgba(143,57,255,1) 10%, rgba(108,58,207,1) 100%);
+    margin-top: 2rem;
+    padding: .8rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+
+
+}
+
+.second h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
